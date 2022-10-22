@@ -21,7 +21,7 @@ import javax.validation.*;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://stockmarketapp-ui.azurewebsites.net")
 @Slf4j
 @RequestMapping(StockPriceConstants.STOCK_V1_PATH)
 public class StockPriceController {
