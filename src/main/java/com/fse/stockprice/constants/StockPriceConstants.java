@@ -6,7 +6,7 @@ public class StockPriceConstants {
     }
 
     public static final String STOCK_V1_PATH = "/api/v1.0/market/stock";
-    public static final String COMPANY_CODE_INVALID_URL = "http://localhost:8082/api/v1.0/market/company/invalid/{companyCode}";
+    public static final String COMPANY_CODE_INVALID_URL = "https://company-service-application.azurewebsites.net/api/v1.0/market/company/invalid/{companyCode}";
 
     public static final String DATE_FIELD = "date";
     public static final String COMPANY_CODE = "companyCode";
